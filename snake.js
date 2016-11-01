@@ -34,7 +34,7 @@
 
 	handle.setMap = function(map) {
 		this.map = map;
-	};
+	}
 
 	handle.move = function() {
 		if (!this.isAlive) {
@@ -108,7 +108,7 @@
 	// 死亡
 	handle.die = function() {
 			this.isAlive = false;
-		};
+		}
 		// 吃东西
 	handle.eat = function() {
 		console.log('snake has eat fruit');
